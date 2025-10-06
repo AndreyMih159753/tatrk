@@ -3,5 +3,11 @@ export default defineNuxtConfig({
 
   $development: {
     devtools: { enabled: true }
+  },
+
+  target: 'static',
+
+  generate: {
+    fallback: true
   }
 })
