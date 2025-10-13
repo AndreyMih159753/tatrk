@@ -11,6 +11,14 @@ export default defineNuxtConfig({
     devtools: { enabled: false }
   },
 
+  app: {
+    head: {
+      charset: 'UTF-8',
+      viewport: 'width=device-width, initial-scale=1.0',
+      title: 'True and the Rainbow Kingdom'
+    }
+  },
+
   target: 'static',
 
   generate: {
@@ -18,7 +26,8 @@ export default defineNuxtConfig({
   },
 
   css: [
-    '~/assets/css/main.css'
+    '~/assets/css/main.css',
+    '~/assets/css/favicon.css'
   ],
 
   vite: {
