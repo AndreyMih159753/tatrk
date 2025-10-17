@@ -19,8 +19,6 @@ export default defineNuxtConfig({
     }
   },
 
-  target: 'static',
-
   generate: {
     fallback: true
   },
@@ -34,5 +32,9 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss()
     ]
+  },
+
+  nitro: {
+    preset: 'github-pages'
   }
 })
