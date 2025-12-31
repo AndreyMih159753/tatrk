@@ -1,0 +1,1 @@
+.nav{border:12px solid #fff}.clicked .nav-menus{bottom:0;opacity:1}@media(max-width:1175px){.nav{border-width:10px}}@media(max-width:700px){.nav{border:none}.nav-menus{transition:all .4s}.clicked .nav-social{top:15px}}
